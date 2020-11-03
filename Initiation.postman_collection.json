@@ -1,0 +1,5008 @@
+{
+	"info": {
+		"_postman_id": "3bc55a7d-a597-4870-939d-54dba00cfdce",
+		"name": "Initiation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addToWallet/manufacturer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "certificatePath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+							"type": "text"
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addToWallet/manufacturer",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addToWallet",
+						"manufacturer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addToWallet/manufacturer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/manufacturer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"manufacturer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:07:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "addToWallet/retailer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "certificatePath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/signcerts/Admin@retailer.pharma-network.com-cert.pem",
+							"type": "text"
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/keystore/616dbd95763726a2fa21ca8a5315c2e7b1f59d2f0c28ee9193ebe1f926125b07_sk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addToWallet/retailer",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addToWallet",
+						"retailer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addToWallet/retailer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/signcerts/Admin@retailer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/keystore/616dbd95763726a2fa21ca8a5315c2e7b1f59d2f0c28ee9193ebe1f926125b07_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/retailer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"retailer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:29:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/manufacturer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/manufacturer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"manufacturer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:07:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "addToWallet/Distributor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "certificatePath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/distributor.pharma-network.com/users/Admin@distributor.pharma-network.com/msp/signcerts/Admin@distributor.pharma-network.com-cert.pem",
+							"type": "text"
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/distributor.pharma-network.com/users/Admin@distributor.pharma-network.com/msp/keystore/2730c437b3ff6fb5df952a697f58b56ab11d88f815096071c547f9a83c59ed5f_sk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addToWallet/distributor",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addToWallet",
+						"distributor"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addToWallet/retailer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/signcerts/Admin@retailer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/keystore/616dbd95763726a2fa21ca8a5315c2e7b1f59d2f0c28ee9193ebe1f926125b07_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/retailer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"retailer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:29:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/manufacturer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/manufacturer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"manufacturer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:07:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/Distributor",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/distributor.pharma-network.com/users/Admin@distributor.pharma-network.com/msp/signcerts/Admin@distributor.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/distributor.pharma-network.com/users/Admin@distributor.pharma-network.com/msp/keystore/2730c437b3ff6fb5df952a697f58b56ab11d88f815096071c547f9a83c59ed5f_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/distributor",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"distributor"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:33:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "addToWallet/Transporter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "certificatePath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/signcerts/Admin@transporter.pharma-network.com-cert.pem",
+							"type": "text"
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/keystore/f8517549012311a5651d0cbde66983202be48de07e0234668ead166c5d757112_sk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addToWallet/transporter",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addToWallet",
+						"transporter"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addToWallet/retailer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/signcerts/Admin@retailer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/keystore/616dbd95763726a2fa21ca8a5315c2e7b1f59d2f0c28ee9193ebe1f926125b07_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/retailer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"retailer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:29:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/manufacturer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/manufacturer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"manufacturer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:07:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/Transporter",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/signcerts/Admin@transporter.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/keystore/f8517549012311a5651d0cbde66983202be48de07e0234668ead166c5d757112_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/transporter",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"transporter"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:37:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "addToWallet/Consumer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "certificatePath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/consumer.pharma-network.com/users/Admin@consumer.pharma-network.com/msp/signcerts/Admin@consumer.pharma-network.com-cert.pem",
+							"type": "text"
+						},
+						{
+							"key": "privateKeyPath",
+							"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/consumer.pharma-network.com/users/Admin@consumer.pharma-network.com/msp/keystore/3967c92d3212d407831945f1df93bf7b8b8e384f535c68b50dea899b023fe574_sk",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addToWallet/consumer",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addToWallet",
+						"consumer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addToWallet/Transporter",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/signcerts/Admin@transporter.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/transporter.pharma-network.com/users/Admin@transporter.pharma-network.com/msp/keystore/f8517549012311a5651d0cbde66983202be48de07e0234668ead166c5d757112_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/transporter",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"transporter"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:37:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/manufacturer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/signcerts/Admin@manufacturer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/manufacturer.pharma-network.com/users/Admin@manufacturer.pharma-network.com/msp/keystore/c5916c63d52ab0f510e16176515bb23d7340a0e2a19dee74616521c353ac21f3_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/manufacturer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"manufacturer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:07:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/retailer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/signcerts/Admin@retailer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/retailer.pharma-network.com/users/Admin@retailer.pharma-network.com/msp/keystore/616dbd95763726a2fa21ca8a5315c2e7b1f59d2f0c28ee9193ebe1f926125b07_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/retailer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"retailer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:29:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				},
+				{
+					"name": "addToWallet/Consumer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "certificatePath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/consumer.pharma-network.com/users/Admin@consumer.pharma-network.com/msp/signcerts/Admin@consumer.pharma-network.com-cert.pem",
+									"type": "text"
+								},
+								{
+									"key": "privateKeyPath",
+									"value": "/home/cs/upgrad/workspace/pharma-net/network/crypto-config/peerOrganizations/consumer.pharma-network.com/users/Admin@consumer.pharma-network.com/msp/keystore/3967c92d3212d407831945f1df93bf7b8b8e384f535c68b50dea899b023fe574_sk",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addToWallet/consumer",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addToWallet",
+								"consumer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-yax0zmWzq/gXnFLKNuC1i3HB+KQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:42:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"User credentials added to wallet\"\n}"
+				}
+			]
+		},
+		{
+			"name": "registerCompany@Manufacturer-ABC Pharma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "MAN011",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "Moon Pharma",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Manufacturer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/registerCompany",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "registerCompany@Distributor-CS Pharma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "DIST011",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "CS Pharma",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Pune",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "DIstributor",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/registerCompany",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Distributor-CS Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "CS Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Pune",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "DIstributor",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "510"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1fe-Fo825LCWvyiAI7H8HG/QE14uVrI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:20:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011-CS Pharma\\u0000\",\n        \"companyName\": \"CS Pharma\",\n        \"location\": \"Pune\",\n        \"organisationRole\": \"DIstributor\",\n        \"hierarchyKey\": 2,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:20:21.060Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "registerCompany@Retailer-Lex",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "RET011",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "Lex",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Retailer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/registerCompany",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Distributor-CS Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "CS Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Pune",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "DIstributor",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "510"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1fe-Fo825LCWvyiAI7H8HG/QE14uVrI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:20:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011-CS Pharma\\u0000\",\n        \"companyName\": \"CS Pharma\",\n        \"location\": \"Pune\",\n        \"organisationRole\": \"DIstributor\",\n        \"hierarchyKey\": 2,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:20:21.060Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Retailer-Lex",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Lex",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Retailer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "487"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e7-rgiE48eGcbVqV5MgCqIWexENAuU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:33:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011-Lex\\u0000\",\n        \"companyName\": \"Lex\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Retailer\",\n        \"hierarchyKey\": 3,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@retailer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=retailer.pharma-network.com/CN=ca.retailer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:33:26.074Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "registerCompany@Transporter011-FedEx",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "TRA011",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "FedEx",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Mumbai",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Transporter",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/registerCompany",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Transporter011-FedEx",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "TRA011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "FedEx",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Transporter",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "503"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f7-C83PR6/Tctnp+j9pFCgrkvyd6nU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:40:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000TRA011-FedEx\\u0000\",\n        \"companyName\": \"FedEx\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Transporter\",\n        \"hierarchyKey\": 0,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@transporter.pharma-network.com::/C=US/ST=California/L=San Francisco/O=transporter.pharma-network.com/CN=ca.transporter.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:40:03.405Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Distributor-CS Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "CS Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Pune",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "DIstributor",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "510"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1fe-Fo825LCWvyiAI7H8HG/QE14uVrI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:20:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011-CS Pharma\\u0000\",\n        \"companyName\": \"CS Pharma\",\n        \"location\": \"Pune\",\n        \"organisationRole\": \"DIstributor\",\n        \"hierarchyKey\": 2,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:20:21.060Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Retailer-Lex",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Lex",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Retailer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "487"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e7-rgiE48eGcbVqV5MgCqIWexENAuU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:33:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011-Lex\\u0000\",\n        \"companyName\": \"Lex\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Retailer\",\n        \"hierarchyKey\": 3,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@retailer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=retailer.pharma-network.com/CN=ca.retailer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:33:26.074Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "registerCompany@Transporter012-Blue Dart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "companyCRN",
+							"value": "TRA012",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "Blue Dart",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Banglore ",
+							"type": "text"
+						},
+						{
+							"key": "organisationRole",
+							"value": "Transporter",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/registerCompany",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registerCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Retailer-Lex",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Lex",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Retailer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "487"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1e7-rgiE48eGcbVqV5MgCqIWexENAuU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:33:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011-Lex\\u0000\",\n        \"companyName\": \"Lex\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Retailer\",\n        \"hierarchyKey\": 3,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@retailer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=retailer.pharma-network.com/CN=ca.retailer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:33:26.074Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Transporter011-FedEx",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "TRA011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "FedEx",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Transporter",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "503"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1f7-C83PR6/Tctnp+j9pFCgrkvyd6nU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:40:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000TRA011-FedEx\\u0000\",\n        \"companyName\": \"FedEx\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Transporter\",\n        \"hierarchyKey\": 0,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@transporter.pharma-network.com::/C=US/ST=California/L=San Francisco/O=transporter.pharma-network.com/CN=ca.transporter.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:40:03.405Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Transporter012-Blue Dart",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "TRA012",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Blue Dart",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Banglore ",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Transporter",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "514"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"202-hxhCjJgmZ/bJik2cJZjQR0uqtd0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:42:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000TRA012-Blue Dart\\u0000\",\n        \"companyName\": \"Blue Dart\",\n        \"location\": \"Banglore \",\n        \"organisationRole\": \"Transporter\",\n        \"hierarchyKey\": 0,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@transporter.pharma-network.com::/C=US/ST=California/L=San Francisco/O=transporter.pharma-network.com/CN=ca.transporter.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:42:02.614Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Distributor-CS Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "CS Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Pune",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "DIstributor",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "510"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1fe-Fo825LCWvyiAI7H8HG/QE14uVrI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:20:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011-CS Pharma\\u0000\",\n        \"companyName\": \"CS Pharma\",\n        \"location\": \"Pune\",\n        \"organisationRole\": \"DIstributor\",\n        \"hierarchyKey\": 2,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:20:21.060Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol001-MAN011",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN011",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol002-MAN011",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "002",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN011",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addDrug@Paracetamol002-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-nJVh3VCORie1c/zVaRMFfFNEKlo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:06:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T09:06:26.907Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol003-MAN011",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "003",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN011",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol002-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-nJVh3VCORie1c/zVaRMFfFNEKlo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:06:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T09:06:26.907Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol003-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "003",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-38W3N/7Fuo7JCsceTOyVOb++FTM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:08:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -003\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8d12922cf0f20d549593a0e09d6b9b104d7340c6d7e4d4d8cd4600f8c6274098\",\n        \"createdAt\": \"2020-07-23T09:08:29.838Z\",\n        \"updatedAt\": \"2020-07-23T09:08:29.838Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol004-MAN011",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "004",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN011",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addDrug@Paracetamol004-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-yFZ1TLTyZMW2wnOR8Sk9tqKrlLY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:10:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -004\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"c2e31bd0ccd2cb2f823ca9ff02ba2bc67166e1d5620a3371e51571f348cd1123\",\n        \"createdAt\": \"2020-07-23T09:10:24.241Z\",\n        \"updatedAt\": \"2020-07-23T09:10:24.241Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol003-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "003",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-38W3N/7Fuo7JCsceTOyVOb++FTM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:08:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -003\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8d12922cf0f20d549593a0e09d6b9b104d7340c6d7e4d4d8cd4600f8c6274098\",\n        \"createdAt\": \"2020-07-23T09:08:29.838Z\",\n        \"updatedAt\": \"2020-07-23T09:08:29.838Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol002-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-nJVh3VCORie1c/zVaRMFfFNEKlo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:06:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T09:06:26.907Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol004-MAN013(Mfg Not Registered)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "004",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "MAN013",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addDrug@Paracetamol003-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "003",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-38W3N/7Fuo7JCsceTOyVOb++FTM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:08:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -003\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8d12922cf0f20d549593a0e09d6b9b104d7340c6d7e4d4d8cd4600f8c6274098\",\n        \"createdAt\": \"2020-07-23T09:08:29.838Z\",\n        \"updatedAt\": \"2020-07-23T09:08:29.838Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol004-MAN013(Mfg Not Registered)",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN013",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1255"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4e7-fktndDdlzzSy5UHYzOFmb1fMAPk\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:13:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.Manufacturer Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction f242d2132738bf0b39bb76786ebe30e2ee2a191a32bfde6edc997549d6753f27: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.Manufacturer Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction f242d2132738bf0b39bb76786ebe30e2ee2a191a32bfde6edc997549d6753f27: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/3_addDrug.js:23:9)\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol002-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-nJVh3VCORie1c/zVaRMFfFNEKlo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:06:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T09:06:26.907Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol004-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-yFZ1TLTyZMW2wnOR8Sk9tqKrlLY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:10:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -004\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"c2e31bd0ccd2cb2f823ca9ff02ba2bc67166e1d5620a3371e51571f348cd1123\",\n        \"createdAt\": \"2020-07-23T09:10:24.241Z\",\n        \"updatedAt\": \"2020-07-23T09:10:24.241Z\"\n    }\n}"
+				},
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "addDrug@Paracetamol004-DIST011 (Unauthorised)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "004",
+							"type": "text"
+						},
+						{
+							"key": "mfgDate",
+							"value": "07-20",
+							"type": "text"
+						},
+						{
+							"key": "expDate",
+							"value": "07-23",
+							"type": "text"
+						},
+						{
+							"key": "companyCRN",
+							"value": "DIST011",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/addDrug",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addDrug"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "registerCompany@Manufacturer-ABC Pharma",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "companyName",
+									"value": "Moon Pharma",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "organisationRole",
+									"value": "Manufacturer",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/registerCompany",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"registerCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "519"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"207-fHwdsJeyWuzHBmm0xIY9gKARDNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 08:53:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Company-Registered successfully\",\n    \"company\": {\n        \"companyID\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011-Moon Pharma\\u0000\",\n        \"companyName\": \"Moon Pharma\",\n        \"location\": \"Mumbai\",\n        \"organisationRole\": \"Manufacturer\",\n        \"hierarchyKey\": 1,\n        \"requestedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T08:53:33.841Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol002-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-nJVh3VCORie1c/zVaRMFfFNEKlo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:06:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T09:06:26.907Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol001-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-2E8vYyD9kvrjkRsVJFkm1Czxh2M\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:04:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol004-MAN013(Mfg Not Registered)",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN013",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1255"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4e7-fktndDdlzzSy5UHYzOFmb1fMAPk\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:13:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.Manufacturer Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction f242d2132738bf0b39bb76786ebe30e2ee2a191a32bfde6edc997549d6753f27: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.Manufacturer Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction f242d2132738bf0b39bb76786ebe30e2ee2a191a32bfde6edc997549d6753f27: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/3_addDrug.js:23:9)\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol003-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "003",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-38W3N/7Fuo7JCsceTOyVOb++FTM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:08:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -003\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8d12922cf0f20d549593a0e09d6b9b104d7340c6d7e4d4d8cd4600f8c6274098\",\n        \"createdAt\": \"2020-07-23T09:08:29.838Z\",\n        \"updatedAt\": \"2020-07-23T09:08:29.838Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol004-MAN011",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "MAN011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "747"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2eb-yFZ1TLTyZMW2wnOR8Sk9tqKrlLY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:10:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-Added successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -004\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"c2e31bd0ccd2cb2f823ca9ff02ba2bc67166e1d5620a3371e51571f348cd1123\",\n        \"createdAt\": \"2020-07-23T09:10:24.241Z\",\n        \"updatedAt\": \"2020-07-23T09:10:24.241Z\"\n    }\n}"
+				},
+				{
+					"name": "addDrug@Paracetamol004-DIST011 (Unauthorised)",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "004",
+									"type": "text"
+								},
+								{
+									"key": "mfgDate",
+									"value": "07-20",
+									"type": "text"
+								},
+								{
+									"key": "expDate",
+									"value": "07-23",
+									"type": "text"
+								},
+								{
+									"key": "companyCRN",
+									"value": "DIST011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/addDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"addDrug"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'none'"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 09:23:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Cannot POST /addDrug</pre>\n    </body>\n</html>"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

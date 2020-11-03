@@ -1,0 +1,313 @@
+{
+	"info": {
+		"_postman_id": "f1086d21-81c3-4204-aff6-10612bfa0c9f",
+		"name": "History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "viewHistory@BY-Consumer- Akash-AAD001-for-Paracetamol-001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/viewHistory",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"viewHistory"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "viewHistory@BY-Consumer- Akash-AAD001-for-Paracetamol-001",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewHistory",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewHistory"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4306"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"10d2-gWIEQ35bP2BZ6fuXPmPE76BJR8U\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 13:12:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-History fetched successfully\",\n    \"drugHistory\": [\n        {\n            \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"shipment\": [],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n            }\n        },\n        {\n            \"transactionId\": \"4fe1b507a36006ddfcea231a0d4f5ad57dae6255c64cb63c188585da7acbb4f4\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n                \"shipment\": [],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n            }\n        },\n        {\n            \"transactionId\": \"03088023ccb476d2f91ebeecb89cf00555fca775565ada52b03f19e8242444af\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T11:57:00.730Z\"\n            }\n        },\n        {\n            \"transactionId\": \"d736cc2cd42cb6a35d4bc555d3ef80ced261636778c63fee06a96f7dc2f289e3\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T12:32:42.120Z\"\n            }\n        },\n        {\n            \"transactionId\": \"d3cd0e0495d45b0b1423965bbb4d52cf2e2c27175f10b25bc3b2a9bb139a7ddd\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T12:46:28.874Z\"\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "viewHistory@BY-Consumer- Akash-AAD001-for-Paracetamol-002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "002",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/viewHistory",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"viewHistory"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "viewHistory@BY-Consumer- Akash-AAD001-for-Paracetamol-001",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewHistory",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewHistory"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4306"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"10d2-gWIEQ35bP2BZ6fuXPmPE76BJR8U\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 13:12:42 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-History fetched successfully\",\n    \"drugHistory\": [\n        {\n            \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"shipment\": [],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T09:04:29.377Z\"\n            }\n        },\n        {\n            \"transactionId\": \"4fe1b507a36006ddfcea231a0d4f5ad57dae6255c64cb63c188585da7acbb4f4\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n                \"shipment\": [],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n            }\n        },\n        {\n            \"transactionId\": \"03088023ccb476d2f91ebeecb89cf00555fca775565ada52b03f19e8242444af\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T11:57:00.730Z\"\n            }\n        },\n        {\n            \"transactionId\": \"d736cc2cd42cb6a35d4bc555d3ef80ced261636778c63fee06a96f7dc2f289e3\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T12:32:42.120Z\"\n            }\n        },\n        {\n            \"transactionId\": \"d3cd0e0495d45b0b1423965bbb4d52cf2e2c27175f10b25bc3b2a9bb139a7ddd\",\n            \"obj\": {\n                \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n                \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n                \"drugName\": \"Paracetamol \",\n                \"mfgDate\": \"07-20\",\n                \"expDate\": \"07-23\",\n                \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011\\u0000\",\n                \"shipment\": [\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n                    \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n                ],\n                \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n                \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n                \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n                \"updatedAt\": \"2020-07-23T12:46:28.874Z\"\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "viewDrugCurrentState for Customer Akash ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "drugName",
+							"value": "Paracetamol ",
+							"type": "text"
+						},
+						{
+							"key": "serialNo",
+							"value": "001",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/viewDrugCurrentState",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"viewDrugCurrentState"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "viewDrugCurrentState for Customer Akash ",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "876"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"36c-kAhLa/kK6GxE/0ZhjeJxOFr2PWY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 23 Jul 2020 13:32:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"AAD001\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:59:15.762Z\"\n    }\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

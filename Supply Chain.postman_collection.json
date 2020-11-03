@@ -1,0 +1,5681 @@
+{
+	"info": {
+		"_postman_id": "e83e3443-471e-4011-b9d8-f2c77d59eac4",
+		"name": "Supply Chain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "part a",
+			"item": [
+				{
+					"name": "createPO@DIST011-MAN011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "sellerCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createPO",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createPO"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createPO@DIST011-MAN011 TRIAL",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-FHGdWWw/Ys7R5BU+xcvmmD/ze1c\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 10:51:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"2\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T10:51:42.886Z\"\n    }\n}"
+						},
+						{
+							"name": "createPO@DIST011-MAN011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-zj01QGsZKoTeJyv0otqM2gkjbAw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:54:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"3\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:53:45.536Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createShipment(Wrong asset length )@MAN011-DIST011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "listOfAssets",
+									"value": "Paracetamol-001,Paracetamol-002,Paracetamol-003",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment(Wrong Drug Name)@MAN011-DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol-001,Paracetamol-002,Paracetamol-003",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-CZXD4nQpP0VT8jpK9hxt2HbVNIA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 10:27:40 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction 25cfbdd7bd75e22ee40e34628d66828e56d1e0a12a8488511a34c3a616a057ee: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction 25cfbdd7bd75e22ee40e34628d66828e56d1e0a12a8488511a34c3a616a057ee: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createPO@DIST011-MAN011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-zj01QGsZKoTeJyv0otqM2gkjbAw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:54:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"3\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:53:45.536Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment(Wrong asset length )@MAN011-DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol-001,Paracetamol-002,Paracetamol-003",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1290"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"50a-2aQEFpkbzTiXjeBJZx30ALkLa/o\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:07:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: shipment Rejected : The listOfAssets and the quantity in the PO doesnt match\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction fb4895d878123170ccd58b084ef93e68dc40b91e5f8bdae0f10db05c1cbd3b5d: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: shipment Rejected : The listOfAssets and the quantity in the PO doesnt match\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction fb4895d878123170ccd58b084ef93e68dc40b91e5f8bdae0f10db05c1cbd3b5d: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createPO@MAN011(Unauthorised !)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "sellerCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createPO",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createPO"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createPO@MAN011(Unauthorised !)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1269"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4f5-UNgVmeO6cXhxuRzq1parNecNrX8\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:56:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.distributor.pharma-network.com, status=500, message=transaction returned with failure: Error: PurchaseOrder Cancelled: The purchase sequence of hierarchy is violated\\n    peer=peer1.distributor.pharma-network.com, status=500, message=failed to execute transaction c02c6812d726c7c68fec1ed2dfbd12ad27520a6f8bf99528e0a4cc9e053223d4: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.distributor.pharma-network.com, status=500, message=transaction returned with failure: Error: PurchaseOrder Cancelled: The purchase sequence of hierarchy is violated\\n    peer=peer1.distributor.pharma-network.com, status=500, message=failed to execute transaction c02c6812d726c7c68fec1ed2dfbd12ad27520a6f8bf99528e0a4cc9e053223d4: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/distributor-application/4_createPO.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createPO@DIST011-MAN011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-zj01QGsZKoTeJyv0otqM2gkjbAw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:54:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"3\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:53:45.536Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createShipment@MAN011-to- DIST011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "listOfAssets",
+									"value": "Paracetamol -001,Paracetamol -002",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-(After the updateShipment by TRA011 to DIST011)-Paracetamol001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "viewDrugCurrentState-(After the updateShipment by TRA011 to DIST011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "850"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"352-zqAO+FRLk5R/+7t07bDPlvVVucU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:08:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.730Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-(After the updateShipment by TRA011 to DIST011)-Paracetamol002",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-(After the updateShipment by TRA011 to DIST011)-Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "850"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"352-9+dQLw/21f9glqygPfVr9aE4ODQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:10:16 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.750Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-(After the updateShipment by TRA011 to DIST011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "850"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"352-zqAO+FRLk5R/+7t07bDPlvVVucU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:08:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.730Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-check (Owner Updated to TRA011) @Paracetamol002",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA011) @Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-h8oJe89TAxTbD/a4cQASO2Ei1yA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:52:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.044Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState@Paracetamol-001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "listOfAssets",
+									"value": "Paracetamol -001,Paracetamol -002",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "listOfAssets",
+									"value": "Paracetamol -001,Paracetamol -005",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -005",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-QM5Pl2ES4qJGgTxRVSnDxI3vvhI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:11:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "updateShipment@TRA011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/updateShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"updateShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -005",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-QM5Pl2ES4qJGgTxRVSnDxI3vvhI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:11:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@TRA011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "825"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"339-0gKsVZC6LsAIyRmp4rj2xZScLMY\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:57:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Updated successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"delivered\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.752Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "updateShipment@TRA012 (Unauthoroised !)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA012",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/updateShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"updateShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "updateShipment@TRA011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "825"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"339-0gKsVZC6LsAIyRmp4rj2xZScLMY\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:57:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Updated successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"delivered\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.752Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -005",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-QM5Pl2ES4qJGgTxRVSnDxI3vvhI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:11:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@TRA012 (Unauthoroised !)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA012",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1335"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"537-BJP1XhemVJHxutjHOOf5uE/UXEg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:00:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment cancelled. The present transporterCRN does not match with the transporterCRN of the shipment\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction a5d14be3ca53a1fc78f3d87f60fcba4aa72854de7b33de6cdd5fd8230cf9b860: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment cancelled. The present transporterCRN does not match with the transporterCRN of the shipment\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction a5d14be3ca53a1fc78f3d87f60fcba4aa72854de7b33de6cdd5fd8230cf9b860: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/transporter-application/6_updateShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "updateShipment@MAN011 (Unauthoroised !)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/updateShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"updateShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "updateShipment@TRA011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "825"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"339-0gKsVZC6LsAIyRmp4rj2xZScLMY\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:57:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Updated successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"delivered\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.752Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -005",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-QM5Pl2ES4qJGgTxRVSnDxI3vvhI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:11:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@MAN011 (Unauthoroised !)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1217"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4c1-rU/XCaAoF8ttgyUcbUVqyGloHGs\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:03:17 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment Asset doesnt exist in the network\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction 6033613ebc144d834ba3cf2bca7d86e12b49385dd4080d93058f7306a006f7e9: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment Asset doesnt exist in the network\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction 6033613ebc144d834ba3cf2bca7d86e12b49385dd4080d93058f7306a006f7e9: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/transporter-application/6_updateShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@TRA012 (Unauthoroised !)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA012",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1335"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"537-BJP1XhemVJHxutjHOOf5uE/UXEg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:00:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment cancelled. The present transporterCRN does not match with the transporterCRN of the shipment\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction a5d14be3ca53a1fc78f3d87f60fcba4aa72854de7b33de6cdd5fd8230cf9b860: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.transporter.pharma-network.com, status=500, message=transaction returned with failure: Error: Shipment cancelled. The present transporterCRN does not match with the transporterCRN of the shipment\\n    peer=peer1.transporter.pharma-network.com, status=500, message=failed to execute transaction a5d14be3ca53a1fc78f3d87f60fcba4aa72854de7b33de6cdd5fd8230cf9b860: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/transporter-application/6_updateShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Part b",
+			"item": [
+				{
+					"name": "createPO@RET011-DIST011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "sellerCRN",
+									"value": "DIST011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createPO",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createPO"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createPO@DIST011-MAN011 TRIAL",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-FHGdWWw/Ys7R5BU+xcvmmD/ze1c\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 10:51:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"2\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T10:51:42.886Z\"\n    }\n}"
+						},
+						{
+							"name": "createPO@DIST011-MAN011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-zj01QGsZKoTeJyv0otqM2gkjbAw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:54:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"3\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:53:45.536Z\"\n    }\n}"
+						},
+						{
+							"name": "createPO@RET011-DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "600"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"258-tasBdq2uHbwmo8KQtIQtSNF6F6g\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:26:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000RET011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"2\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@retailer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=retailer.pharma-network.com/CN=ca.retailer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T12:26:35.329Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createPO Validation@RET011-MAN011 (Hierarchy not followed)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "sellerCRN",
+									"value": "MAN011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createPO",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createPO"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createPO@DIST011-MAN011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-zj01QGsZKoTeJyv0otqM2gkjbAw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 09:54:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"3\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T09:53:45.536Z\"\n    }\n}"
+						},
+						{
+							"name": "createPO@DIST011-MAN011 TRIAL",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "610"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"262-FHGdWWw/Ys7R5BU+xcvmmD/ze1c\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 10:51:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"2\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T10:51:42.886Z\"\n    }\n}"
+						},
+						{
+							"name": "createPO Validation@RET011-MAN011 (Hierarchy not followed)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "MAN011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-xmJaBLZosZ4Qc0QeIcLKaWf5PiU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:29:23 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.retailer.pharma-network.com, status=500, message=transaction returned with failure: Error: PurchaseOrder Cancelled: The purchase sequence of hierarchy is violated\\n    peer=peer1.retailer.pharma-network.com, status=500, message=failed to execute transaction f847c4bfdf43595f5db7f26b13cff59f6eefc7b78ddaa4cd34b0db002ffec41b: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.retailer.pharma-network.com, status=500, message=transaction returned with failure: Error: PurchaseOrder Cancelled: The purchase sequence of hierarchy is violated\\n    peer=peer1.retailer.pharma-network.com, status=500, message=failed to execute transaction f847c4bfdf43595f5db7f26b13cff59f6eefc7b78ddaa4cd34b0db002ffec41b: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/retailer-application/4_createPO.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createPO@RET011-DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "sellerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "quantity",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createPO",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createPO"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "600"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"258-tasBdq2uHbwmo8KQtIQtSNF6F6g\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:26:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"PurchaseOrder-Created successfully\",\n    \"purchaseOrder\": {\n        \"poID\": \"\\u0000org.pharma-network.pharmanet.purchaseOrder\\u0000RET011-Paracetamol\\u0000\",\n        \"drugName\": \"Paracetamol\",\n        \"quantity\": \"2\",\n        \"buyer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011\\u0000\",\n        \"seller\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@retailer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=retailer.pharma-network.com/CN=ca.retailer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T12:26:35.329Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "createShipment by Distributor-DIST011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "listOfAssets",
+									"value": "Paracetamol -001,Paracetamol -002",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/createShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"createShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment by Distributor-DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "823"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"337-1xoBB1LuQ+EnoZ5jd+Tu6450EPU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:32:52 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T12:32:42.141Z\",\n        \"updatedAt\": \"2020-07-23T12:32:42.141Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "861"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35d-LpgvMpLyjUVbHUgHjAbIHBjAe6U\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:40:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:32:42.120Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA011) @Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-h8oJe89TAxTbD/a4cQASO2Ei1yA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:52:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.044Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-check (Owner Updated to RET011) @Paracetamol001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA011) @Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-h8oJe89TAxTbD/a4cQASO2Ei1yA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:52:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.044Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "861"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35d-LpgvMpLyjUVbHUgHjAbIHBjAe6U\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:40:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:32:42.120Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to RET011) @Paracetamol001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "930"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3a2-xXVOoGtIAB2gIQltvdqcCBCbCbg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:50:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.company\\u0000RET011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:46:28.874Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol002",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "002",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/viewDrugCurrentState",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"viewDrugCurrentState"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "861"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35d-LpgvMpLyjUVbHUgHjAbIHBjAe6U\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:40:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:32:42.120Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check 1 (Owner Updated to TRA011)",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-0ah+bDAkD9Z6RwvvpNWR4ETq1U0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:48:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.030Z\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA011) @Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "780"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"30c-h8oJe89TAxTbD/a4cQASO2Ei1yA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:52:13 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.044Z\"\n    }\n}"
+						},
+						{
+							"name": "viewDrugCurrentState-check (Owner Updated to TRA012) @Paracetamol002",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "002",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/viewDrugCurrentState",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"viewDrugCurrentState"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "861"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35d-MPUFGVNA+mAwIOMS32Ypxq+CAHQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:42:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Drug-CurrentState fetched successfully\",\n    \"drugStatus\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"24cd303890e3bdaefb1af7badde3b6b4376893e01d8151dc459490603923695d\",\n        \"createdAt\": \"2020-07-23T09:06:26.907Z\",\n        \"updatedAt\": \"2020-07-23T12:32:42.137Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "updateShipment@TRA011",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "buyerCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "drugName",
+									"value": "Paracetamol",
+									"type": "text"
+								},
+								{
+									"key": "transporterCRN",
+									"value": "TRA011",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/updateShipment",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"updateShipment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createShipment(Invalid Drug Id) @MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -005",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1254"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e6-QM5Pl2ES4qJGgTxRVSnDxI3vvhI\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:11:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.manufacturer.pharma-network.com, status=500, message=transaction returned with failure: Error: Please register.The Drug Asset doesnt exist in the network\\n    peer=peer1.manufacturer.pharma-network.com, status=500, message=failed to execute transaction aa16571c3a75ae00e5b2cf46a073a2c9c0a28e2569a7644e09da5eacd0a3e23f: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/manufacturer-application/5_createShipment.js:23:9)\"\n    }\n}"
+						},
+						{
+							"name": "createShipment@MAN011-to- DIST011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "listOfAssets",
+											"value": "Paracetamol -001,Paracetamol -002",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/createShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"createShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "826"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33a-MTeqmXFGbO3RVfRdHUlzu4ARxaM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Created successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"in-transit\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:00:36.049Z\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@TRA011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "822"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"336-QdD8ryy2RevD01oNhIRBg7ewgWg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:46:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Updated successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000DIST011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"delivered\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@distributor.pharma-network.com::/C=US/ST=California/L=San Francisco/O=distributor.pharma-network.com/CN=ca.distributor.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T12:32:42.141Z\",\n        \"updatedAt\": \"2020-07-23T12:46:28.890Z\"\n    }\n}"
+						},
+						{
+							"name": "updateShipment@TRA011",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "buyerCRN",
+											"value": "DIST011",
+											"type": "text"
+										},
+										{
+											"key": "drugName",
+											"value": "Paracetamol",
+											"type": "text"
+										},
+										{
+											"key": "transporterCRN",
+											"value": "TRA011",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/updateShipment",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"updateShipment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "825"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"339-0gKsVZC6LsAIyRmp4rj2xZScLMY\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 11:57:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Shipment-Updated successfully\",\n    \"shipment\": {\n        \"shipmentID\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n        \"creator\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"assests\": [\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -002\\u0000\"\n        ],\n        \"transporterCRN\": \"TRA011\",\n        \"transporter\": \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000FedEx-TRA011\\u0000\",\n        \"status\": \"delivered\",\n        \"createdBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"createdAt\": \"2020-07-23T11:00:36.049Z\",\n        \"updatedAt\": \"2020-07-23T11:57:00.752Z\"\n    }\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Part c",
+			"item": [
+				{
+					"name": "retailDrug@RET011- AAD001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "retailerCRN",
+									"value": "RET011",
+									"type": "text"
+								},
+								{
+									"key": "customerAadhar",
+									"value": "AAD001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/retailDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"retailDrug"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "retailDrug@RET011- AAD001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										},
+										{
+											"key": "retailerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "customerAadhar",
+											"value": "AAD001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/retailDrug",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"retailDrug"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "858"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35a-4E1PEe/Ivvzgj1bj9KHXaQyt2o4\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:59:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Retailer-Sold successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"AAD001\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:59:15.762Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "retailDrug@Unauthorised RET012- invoking Other retailers detail AAD001",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "drugName",
+									"value": "Paracetamol ",
+									"type": "text"
+								},
+								{
+									"key": "serialNo",
+									"value": "001",
+									"type": "text"
+								},
+								{
+									"key": "retailerCRN",
+									"value": "RET012",
+									"type": "text"
+								},
+								{
+									"key": "customerAadhar",
+									"value": "AAD001",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:4000/retailDrug",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"retailDrug"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "retailDrug@RET011- AAD001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										},
+										{
+											"key": "retailerCRN",
+											"value": "RET011",
+											"type": "text"
+										},
+										{
+											"key": "customerAadhar",
+											"value": "AAD001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/retailDrug",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"retailDrug"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "858"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"35a-4E1PEe/Ivvzgj1bj9KHXaQyt2o4\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 12:59:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"success\",\n    \"message\": \"Retailer-Sold successfully\",\n    \"drug\": {\n        \"productID\": \"\\u0000org.pharma-network.pharmanet.drug\\u0000Paracetamol -001\\u0000\",\n        \"manufacturer\": \"\\u0000org.pharma-network.pharmanet.company\\u0000MAN011\\u0000\",\n        \"drugName\": \"Paracetamol \",\n        \"mfgDate\": \"07-20\",\n        \"expDate\": \"07-23\",\n        \"owner\": \"AAD001\",\n        \"shipment\": [\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000DIST011-Paracetamol\\u0000\",\n            \"\\u0000org.pharma-network.pharmanet.shipmentOrder\\u0000RET011-Paracetamol\\u0000\"\n        ],\n        \"addedBy\": \"x509::/C=US/ST=California/L=San Francisco/OU=client/CN=Admin@manufacturer.pharma-network.com::/C=US/ST=California/L=San Francisco/O=manufacturer.pharma-network.com/CN=ca.manufacturer.pharma-network.com\",\n        \"transactionId\": \"8c77ecbbace9aadca82a2db0f1a42398d34872c11d2db61b1c3668a27d359176\",\n        \"createdAt\": \"2020-07-23T09:04:29.377Z\",\n        \"updatedAt\": \"2020-07-23T12:59:15.762Z\"\n    }\n}"
+						},
+						{
+							"name": "retailDrug@Unauthorised RET012- invoking Other retailers detail AAD001",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "drugName",
+											"value": "Paracetamol ",
+											"type": "text"
+										},
+										{
+											"key": "serialNo",
+											"value": "001",
+											"type": "text"
+										},
+										{
+											"key": "retailerCRN",
+											"value": "RET012",
+											"type": "text"
+										},
+										{
+											"key": "customerAadhar",
+											"value": "AAD001",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:4000/retailDrug",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"retailDrug"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1250"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4e2-gpR9ilO2QqYBblEbEwIJ+S6fPfU\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 23 Jul 2020 13:02:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"message\": \"Failed\",\n    \"error\": {\n        \"message\": \"Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.retailer.pharma-network.com, status=500, message=transaction returned with failure: Error: Not Authorized: The owner of the drug doesnt match with the retailer\\n    peer=peer1.retailer.pharma-network.com, status=500, message=failed to execute transaction 32936a7a7350f3bfa33aa2f24f4bea66b36eba43e9bda7e887e02ca21c891c0b: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\",\n        \"stack\": \"Error: Error: No valid responses from any peers. 2 peer error responses:\\n    peer=peer0.retailer.pharma-network.com, status=500, message=transaction returned with failure: Error: Not Authorized: The owner of the drug doesnt match with the retailer\\n    peer=peer1.retailer.pharma-network.com, status=500, message=failed to execute transaction 32936a7a7350f3bfa33aa2f24f4bea66b36eba43e9bda7e887e02ca21c891c0b: [channel pharmachannel] could not launch chaincode pharmanet:1.1: chaincode registration failed: container exited with 0\\n    at Object.main [as execute] (/home/cs/upgrad/workspace/pharma-net/application/retailer-application/7_retailDrug.js:23:9)\"\n    }\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
